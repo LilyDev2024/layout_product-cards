@@ -19,7 +19,7 @@
   }
 
   &__title {
-    font-weight: variables.$font-bolded;
+    font-weight: variables.$font-weight-bolded;
     font-size: variables.$font-normal;
     line-height: 18px;
     letter-spacing: 0%;
@@ -29,7 +29,7 @@
   }
 
   &__code {
-    font-weight: variables.$font-normal;
+    font-weight: variables.$font-weight-normal;
     color: rgba(97, 96, 112, 1);
     font-size: variables.$font-small;
     line-height: variables.$font-big;
@@ -95,7 +95,7 @@
     height: 40px;
     color: variables.$button-color-hover;
     background-color: variables.$button-color;
-    font-size: variables.$size14px;
+    font-size: variables.$font-big;
     font-weight: 700px;
     line-height: 16px;
     letter-spacing: 0%;
